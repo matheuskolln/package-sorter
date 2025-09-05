@@ -3,26 +3,27 @@
 [![CI](https://github.com/your-username/package-sorter/actions/workflows/python-tests.yml/badge.svg)](https://github.com/your-username/package-sorter/actions)
 ![coverage](https://img.shields.io/badge/sort.py%20coverage-100%25-brightgreen)
 
-A Python solution for the **FDE Technical Screen** challenge.
-The goal is to classify packages into different stacks based on their **dimensions** and **mass**.
-
----
-
-# 🚀 Objective
-
-- **STANDARD** → packages that are neither heavy nor bulky.
-- **SPECIAL** → packages that are heavy **or** bulky.
-- **REJECTED** → packages that are **both** heavy and bulky.
+A Python solution to classify packages into different stacks based on their **dimensions** and **mass**.
 
 ---
 
 # 📐 Rules
 
 - **Bulky**:
+
   - Volume `>= 1,000,000 cm³`
   - Or any dimension `>= 150 cm`
 - **Heavy**:
+
   - Mass `>= 20 kg`
+
+  ---
+
+# 🚀 Objective
+
+- **STANDARD** → packages that are neither heavy nor bulky.
+- **SPECIAL** → packages that are heavy **or** bulky.
+- **REJECTED** → packages that are **both** heavy and bulky.
 
 ---
 
