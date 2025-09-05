@@ -1,6 +1,6 @@
 # 📦 Package Sorter
 
-[![CI](https://github.com/your-username/package-sorter/actions/workflows/python-tests.yml/badge.svg)](https://github.com/your-username/package-sorter/actions)
+[![CI](https://github.com/matheuskolln/package-sorter/actions/workflows/python-tests.yml/badge.svg)](https://github.com/your-username/package-sorter/actions)
 ![coverage](https://img.shields.io/badge/sort.py%20coverage-100%25-brightgreen)
 
 A Python solution to classify packages into different stacks based on their **dimensions** and **mass**.
